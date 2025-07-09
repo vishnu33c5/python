@@ -1,0 +1,5 @@
+l=list(map(int,input().split()))
+l.reverse()
+print(l)
+print("sum: ",sum(l),end=" ")
+print("avg: ",sum(l)//len(l))
